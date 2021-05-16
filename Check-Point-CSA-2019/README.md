@@ -7,5 +7,5 @@ Used These sources as reference:
  [ https://www.digitalwhisper.co.il/files/Zines/0x6F/DW111-2-CP-CSA2019.pdf ]   
  And other partial/full solutions I've found on Github
 
-For a more sophisticated/professional solutions check out:
+For a more sophisticated/professional solutions check out:  
 https://github.com/zvikam/Checkpoint-CSA
