@@ -1,0 +1,581 @@
+Map terrain:
+
+[mountain, open, open, open, wood, wood, wood, wood, wood, wood, open, open, wood, open, wood, wood, open, mountain, mountain, desert, desert, desert, desert, desert, desert, mountain, mountain, wood, wood, wood, wood, wood, wood, open, wood, wood, open, mountain, open, open, open, open, swamp, swamp, wood, wood, wood, open, wood, wood, open, wood, open, swamp, swamp, swamp, swamp, wood, wood, open, swamp, swamp, swamp, swamp],
+[wood, open, open, open, wood, wood, open, wood, mountain, open, wood, open, wood, open, open, swamp, open, mountain, desert, desert, desert, desert, open, mountain, mountain, mountain, wood, wood, wood, mountain, mountain, mountain, mountain, open, mountain, mountain, wood, mountain, wood, wood, wood, open, swamp, swamp, wood, open, wood, wood, mountain, mountain, wood, wood, swamp, open, open, swamp, wood, open, open, open, wood, swamp, swamp, swamp],
+[open, swamp, wood, wood, mountain, open, open, mountain, wood, wood, mountain, open, mountain, mountain, swamp, swamp, open, open, mountain, open, open, open, desert, open, open, open, wood, wood, mountain, open, open, desert, desert, open, mountain, mountain, wood, open, open, open, mountain, open, mountain, swamp, open, swamp, swamp, wood, swamp, swamp, desert, wood, swamp, open, swamp, swamp, wood, mountain, desert, wood, open, mountain, mountain, wood],
+[open, swamp, swamp, swamp, desert, open, open, mountain, wood, wood, open, swamp, wood, mountain, wood, swamp, mountain, open, mountain, open, open, open, desert, desert, mountain, mountain, open, open, wood, open, mountain, desert, open, open, mountain, mountain, open, open, open, mountain, open, open, wood, wood, mountain, mountain, mountain, mountain, open, swamp, open, open, wood, wood, open, open, wood, open, wood, wood, open, desert, mountain, open],
+[mountain, mountain, desert, swamp, mountain, open, open, mountain, open, open, mountain, open, wood, wood, open, swamp, open, open, mountain, desert, desert, open, mountain, desert, mountain, mountain, mountain, open, mountain, open, desert, desert, mountain, mountain, open, mountain, mountain, mountain, open, open, mountain, open, wood, wood, wood, wood, wood, open, mountain, mountain, mountain, mountain, mountain, mountain, wood, wood, wood, open, wood, wood, mountain, open, mountain, mountain],
+[desert, desert, mountain, swamp, open, open, mountain, open, open, open, mountain, open, wood, wood, swamp, swamp, open, open, desert, desert, open, open, desert, desert, desert, desert, wood, mountain, mountain, mountain, mountain, open, open, open, mountain, open, open, open, desert, desert, desert, desert, desert, mountain, wood, wood, open, open, wood, mountain, mountain, mountain, open, open, open, wood, open, open, open, open, wood, open, open, open],
+[desert, desert, open, open, swamp, open, open, open, open, open, mountain, mountain, open, mountain, open, wood, wood, open, open, desert, open, open, mountain, mountain, mountain, desert, mountain, desert, desert, mountain, open, open, mountain, open, wood, open, open, open, wood, wood, mountain, desert, mountain, desert, mountain, wood, mountain, mountain, open, mountain, open, mountain, mountain, mountain, wood, wood, wood, open, open, open, wood, wood, mountain, mountain],
+[mountain, mountain, desert, desert, open, open, open, mountain, mountain, mountain, open, desert, open, open, open, wood, swamp, open, desert, desert, open, open, open, open, open, desert, mountain, wood, mountain, mountain, mountain, mountain, open, open, wood, wood, wood, wood, open, wood, desert, desert, open, open, open, open, desert, desert, desert, open, open, mountain, wood, wood, open, open, open, open, open, open, open, wood, swamp, desert],
+[mountain, mountain, desert, mountain, mountain, open, mountain, mountain, mountain, mountain, mountain, mountain, desert, open, wood, wood, wood, open, mountain, mountain, mountain, mountain, wood, wood, wood, desert, open, open, wood, wood, wood, mountain, open, open, wood, wood, wood, mountain, open, open, open, open, mountain, wood, wood, wood, desert, open, desert, desert, open, mountain, wood, wood, open, wood, open, wood, open, open, wood, wood, swamp, desert],
+[wood, wood, desert, desert, open, open, wood, wood, wood, wood, wood, wood, wood, wood, wood, wood, mountain, open, mountain, mountain, open, mountain, wood, open, open, desert, desert, open, mountain, wood, mountain, open, open, desert, desert, desert, mountain, wood, wood, open, open, open, wood, wood, wood, wood, desert, desert, open, desert, open, mountain, open, open, open, open, wood, wood, open, open, mountain, mountain, swamp, open],
+[wood, wood, desert, desert, desert, open, open, open, open, open, open, open, open, open, open, open, open, open, mountain, mountain, open, mountain, open, open, desert, desert, swamp, swamp, wood, wood, open, open, desert, desert, desert, desert, wood, open, open, wood, wood, wood, open, open, open, open, open, desert, desert, desert, wood, mountain, open, open, open, wood, open, open, wood, wood, open, open, mountain, open],
+[wood, wood, desert, desert, open, open, wood, wood, wood, open, open, open, wood, wood, wood, wood, wood, open, open, open, open, open, open, swamp, open, desert, wood, wood, swamp, mountain, mountain, mountain, open, desert, mountain, desert, open, mountain, wood, wood, wood, wood, open, open, open, open, desert, desert, desert, desert, wood, wood, mountain, open, open, wood, open, open, mountain, mountain, mountain, mountain, open, open],
+[wood, open, swamp, wood, wood, swamp, swamp, swamp, open, open, open, open, wood, wood, open, wood, open, mountain, mountain, open, open, open, wood, wood, mountain, desert, desert, desert, wood, open, open, wood, wood, mountain, desert, desert, mountain, open, open, open, open, open, open, mountain, mountain, open, wood, open, open, open, desert, wood, open, open, wood, open, wood, wood, open, open, open, wood, open, open],
+[wood, mountain, mountain, wood, swamp, swamp, swamp, wood, open, mountain, open, mountain, mountain, mountain, mountain, wood, swamp, mountain, open, open, open, wood, open, wood, open, open, open, open, wood, mountain, mountain, desert, mountain, mountain, desert, desert, open, wood, mountain, open, open, open, open, mountain, open, mountain, open, open, open, mountain, mountain, wood, wood, open, wood, wood, open, mountain, open, open, wood, wood, mountain, open],
+[mountain, open, wood, wood, wood, wood, swamp, wood, open, mountain, mountain, open, mountain, mountain, wood, wood, open, mountain, open, swamp, mountain, mountain, open, wood, open, open, open, swamp, wood, open, desert, desert, mountain, open, open, desert, open, wood, mountain, open, open, open, mountain, mountain, open, desert, mountain, open, mountain, wood, open, open, wood, open, open, wood, open, wood, mountain, mountain, open, open, open, open],
+[wood, wood, open, mountain, mountain, mountain, open, open, mountain, mountain, open, open, open, mountain, open, open, open, open, swamp, wood, wood, wood, wood, wood, wood, wood, open, wood, swamp, wood, wood, mountain, desert, desert, open, open, swamp, open, open, open, mountain, open, desert, mountain, desert, desert, open, wood, wood, wood, wood, wood, open, open, wood, wood, open, wood, wood, desert, mountain, wood, mountain, open],
+[swamp, wood, swamp, wood, mountain, open, open, mountain, open, open, open, open, mountain, mountain, open, mountain, mountain, mountain, open, wood, wood, wood, wood, open, open, mountain, wood, wood, swamp, swamp, mountain, open, mountain, wood, wood, open, open, mountain, mountain, open, mountain, open, desert, mountain, desert, desert, wood, wood, wood, wood, wood, open, open, swamp, mountain, wood, open, open, desert, desert, wood, wood, mountain, open],
+[wood, wood, swamp, wood, open, swamp, swamp, desert, desert, open, wood, open, mountain, open, open, wood, wood, desert, open, wood, wood, wood, mountain, mountain, open, open, open, mountain, open, desert, desert, desert, open, mountain, mountain, mountain, mountain, mountain, open, open, wood, open, open, mountain, mountain, mountain, mountain, swamp, swamp, swamp, swamp, open, swamp, mountain, wood, wood, desert, open, open, desert, desert, wood, mountain, mountain],
+[wood, wood, open, open, swamp, swamp, desert, desert, open, open, mountain, desert, desert, desert, open, wood, desert, desert, wood, wood, wood, wood, mountain, mountain, mountain, desert, desert, desert, open, wood, open, desert, wood, wood, wood, mountain, mountain, desert, mountain, mountain, mountain, open, mountain, desert, desert, desert, mountain, swamp, swamp, swamp, wood, mountain, wood, wood, mountain, mountain, desert, open, desert, desert, open, open, desert, mountain],
+[wood, wood, wood, wood, wood, wood, swamp, desert, desert, wood, open, mountain, mountain, desert, open, mountain, wood, desert, wood, mountain, open, wood, open, open, open, desert, desert, open, wood, open, wood, desert, desert, open, open, mountain, desert, desert, desert, mountain, swamp, open, desert, desert, desert, mountain, open, open, open, swamp, open, open, open, open, wood, wood, desert, open, desert, desert, wood, open, desert, open],
+[wood, open, wood, open, open, open, open, mountain, wood, open, open, mountain, desert, desert, open, mountain, mountain, mountain, desert, mountain, open, wood, mountain, open, open, mountain, mountain, open, wood, wood, open, open, desert, wood, mountain, mountain, open, desert, mountain, mountain, wood, open, desert, desert, mountain, open, mountain, open, swamp, swamp, swamp, swamp, swamp, open, wood, wood, open, open, open, desert, open, wood, wood, wood],
+[wood, open, wood, open, wood, wood, wood, wood, open, open, open, open, mountain, desert, open, open, desert, desert, mountain, open, open, open, mountain, open, mountain, desert, desert, swamp, open, open, wood, wood, desert, desert, wood, wood, open, desert, mountain, open, mountain, open, desert, desert, open, mountain, open, open, wood, wood, wood, open, swamp, open, open, open, wood, desert, desert, desert, open, open, open, open],
+[wood, mountain, mountain, open, open, open, open, open, wood, mountain, mountain, mountain, open, open, desert, wood, open, mountain, desert, desert, desert, wood, open, open, mountain, open, mountain, mountain, wood, wood, mountain, wood, desert, desert, open, open, wood, open, desert, open, open, open, open, wood, wood, wood, wood, open, wood, wood, open, open, swamp, swamp, wood, open, desert, desert, desert, desert, open, desert, desert, open],
+[wood, mountain, wood, open, open, open, wood, wood, open, open, open, open, mountain, wood, desert, open, mountain, open, wood, wood, desert, desert, wood, wood, open, open, open, desert, desert, wood, mountain, open, wood, wood, wood, wood, wood, wood, mountain, open, open, open, wood, wood, wood, wood, open, wood, open, open, wood, mountain, desert, desert, swamp, open, open, wood, swamp, mountain, mountain, open, open, open],
+[open, mountain, open, mountain, desert, desert, open, mountain, desert, open, open, open, wood, open, wood, wood, wood, open, open, mountain, open, open, open, mountain, open, open, desert, desert, wood, wood, mountain, mountain, mountain, wood, wood, open, open, wood, open, mountain, mountain, mountain, open, wood, wood, wood, open, wood, wood, open, mountain, wood, wood, open, swamp, open, wood, mountain, wood, wood, wood, wood, swamp, open],
+[mountain, mountain, wood, mountain, desert, desert, open, open, mountain, open, open, open, wood, wood, wood, wood, open, open, mountain, mountain, swamp, open, mountain, desert, mountain, open, open, mountain, mountain, mountain, wood, open, open, open, wood, wood, open, wood, open, open, mountain, open, wood, open, open, desert, desert, open, mountain, mountain, wood, open, open, open, swamp, open, open, open, open, open, wood, wood, open, open],
+[open, mountain, wood, open, open, desert, wood, swamp, swamp, wood, wood, open, wood, open, wood, wood, open, open, mountain, wood, wood, open, mountain, desert, desert, open, mountain, mountain, mountain, mountain, open, open, open, open, open, wood, desert, open, wood, open, open, open, wood, open, desert, desert, wood, wood, wood, wood, open, desert, mountain, mountain, swamp, wood, open, open, open, open, open, wood, wood, mountain],
+[mountain, open, wood, mountain, mountain, desert, swamp, open, open, open, wood, open, wood, wood, open, wood, wood, open, wood, open, open, mountain, desert, desert, open, open, open, open, open, wood, wood, open, open, open, open, wood, open, open, mountain, wood, wood, open, mountain, mountain, open, open, desert, wood, mountain, wood, open, desert, desert, desert, wood, wood, wood, open, open, open, wood, mountain, mountain, desert],
+[open, mountain, open, mountain, desert, desert, wood, wood, wood, open, wood, wood, open, wood, open, open, wood, wood, open, open, mountain, mountain, desert, desert, swamp, open, wood, wood, mountain, mountain, open, open, open, open, wood, wood, open, mountain, mountain, open, open, open, mountain, mountain, wood, wood, desert, mountain, mountain, open, open, desert, desert, desert, wood, wood, open, swamp, open, mountain, open, mountain, desert, desert],
+[open, open, open, open, open, open, open, wood, open, open, open, open, open, open, wood, open, desert, wood, wood, wood, wood, open, mountain, desert, open, open, mountain, wood, open, mountain, desert, open, open, open, desert, open, wood, wood, open, open, mountain, mountain, open, mountain, open, wood, desert, mountain, open, mountain, mountain, mountain, mountain, open, desert, desert, open, open, swamp, wood, open, open, mountain, open],
+[mountain, open, open, swamp, wood, wood, open, open, wood, open, open, wood, wood, swamp, wood, open, wood, wood, wood, open, wood, wood, wood, mountain, desert, desert, wood, wood, open, open, desert, desert, mountain, swamp, desert, mountain, open, open, wood, wood, open, open, mountain, mountain, open, open, open, open, open, open, open, open, open, open, desert, desert, desert, open, swamp, wood, wood, wood, mountain, open],
+[mountain, mountain, swamp, swamp, swamp, swamp, open, wood, swamp, open, open, desert, wood, wood, open, open, wood, wood, open, open, wood, wood, mountain, mountain, mountain, open, desert, swamp, mountain, mountain, open, desert, mountain, wood, wood, swamp, mountain, open, wood, wood, wood, open, mountain, mountain, open, open, mountain, open, open, open, open, open, open, open, wood, open, open, open, wood, wood, open, wood, open, open],
+[mountain, mountain, swamp, swamp, swamp, swamp, open, open, wood, open, desert, mountain, desert, desert, wood, open, open, open, wood, open, open, wood, open, open, mountain, open, swamp, swamp, swamp, open, wood, mountain, open, open, wood, open, swamp, open, wood, open, wood, mountain, open, mountain, open, open, wood, open, open, open, wood, wood, wood, wood, open, open, open, open, wood, wood, wood, wood, wood, open],
+[open, mountain, swamp, swamp, swamp, wood, open, open, wood, wood, open, open, open, swamp, wood, open, desert, desert, desert, desert, wood, wood, swamp, swamp, swamp, swamp, open, swamp, open, open, mountain, mountain, wood, wood, desert, desert, desert, desert, mountain, open, open, wood, wood, mountain, open, mountain, wood, open, open, open, open, wood, wood, wood, open, mountain, mountain, mountain, open, desert, desert, open, wood, wood],
+[mountain, mountain, mountain, mountain, wood, wood, open, open, wood, open, wood, open, swamp, wood, open, mountain, mountain, open, open, open, open, wood, wood, wood, wood, swamp, open, wood, swamp, swamp, open, mountain, mountain, mountain, mountain, desert, desert, open, open, open, wood, wood, open, open, mountain, open, open, open, open, mountain, mountain, wood, wood, wood, mountain, mountain, mountain, open, desert, mountain, mountain, open, wood, open],
+[open, open, wood, swamp, mountain, mountain, wood, mountain, wood, open, wood, wood, swamp, swamp, mountain, mountain, mountain, open, open, open, open, wood, wood, wood, swamp, swamp, wood, open, mountain, swamp, open, mountain, mountain, desert, mountain, desert, open, open, open, desert, wood, open, wood, wood, mountain, open, open, open, mountain, mountain, open, open, open, open, swamp, mountain, open, open, open, mountain, wood, mountain, wood, wood],
+[mountain, mountain, swamp, swamp, mountain, open, open, open, wood, open, open, open, open, desert, swamp, mountain, mountain, mountain, open, wood, open, wood, wood, wood, swamp, swamp, wood, wood, wood, open, swamp, open, desert, desert, open, open, desert, mountain, open, wood, wood, open, open, open, mountain, wood, wood, open, mountain, mountain, wood, wood, wood, open, swamp, swamp, swamp, swamp, swamp, open, wood, mountain, desert, wood],
+[open, open, desert, open, swamp, mountain, mountain, desert, desert, wood, wood, open, desert, desert, open, wood, wood, mountain, open, open, open, open, mountain, desert, wood, wood, wood, wood, open, open, swamp, wood, swamp, desert, swamp, swamp, swamp, desert, open, wood, open, mountain, wood, mountain, swamp, swamp, open, wood, open, open, mountain, wood, open, open, wood, wood, wood, wood, swamp, swamp, open, open, mountain, wood],
+[open, mountain, mountain, mountain, wood, desert, mountain, desert, open, open, wood, wood, open, open, desert, wood, mountain, open, mountain, open, open, desert, open, open, open, open, open, open, wood, wood, open, open, desert, desert, desert, swamp, mountain, mountain, wood, mountain, wood, wood, wood, open, mountain, mountain, mountain, mountain, desert, open, swamp, swamp, swamp, swamp, mountain, mountain, mountain, wood, wood, wood, wood, wood, open, open],
+[open, mountain, mountain, open, open, open, swamp, swamp, desert, open, open, open, open, open, wood, wood, mountain, open, mountain, open, mountain, mountain, wood, open, wood, wood, wood, wood, open, wood, open, open, open, desert, wood, open, open, mountain, wood, wood, mountain, mountain, open, wood, open, mountain, open, open, desert, open, open, swamp, open, mountain, swamp, mountain, wood, wood, wood, wood, wood, wood, wood, wood],
+[desert, mountain, open, swamp, swamp, swamp, open, swamp, open, mountain, mountain, open, open, wood, open, wood, mountain, open, open, swamp, open, mountain, wood, wood, mountain, open, open, desert, desert, wood, mountain, open, desert, desert, open, mountain, open, open, open, open, open, open, wood, wood, open, open, open, open, desert, wood, wood, open, mountain, open, open, open, mountain, mountain, open, open, open, mountain, mountain, open],
+[desert, desert, open, mountain, mountain, wood, open, wood, desert, mountain, mountain, open, wood, wood, open, wood, open, mountain, desert, desert, mountain, open, mountain, wood, mountain, wood, wood, open, wood, open, wood, open, desert, desert, mountain, desert, wood, open, open, mountain, mountain, desert, open, wood, open, open, open, open, wood, wood, open, desert, open, mountain, mountain, open, mountain, mountain, open, open, mountain, mountain, open, open],
+[desert, desert, open, open, wood, wood, open, wood, open, wood, swamp, wood, open, mountain, open, mountain, open, open, mountain, desert, open, open, wood, open, open, wood, mountain, open, wood, open, wood, open, desert, desert, wood, desert, mountain, mountain, wood, wood, wood, mountain, open, open, wood, wood, open, swamp, swamp, swamp, open, desert, wood, open, desert, desert, open, open, open, open, swamp, swamp, swamp, open],
+[desert, desert, open, open, wood, open, wood, mountain, mountain, mountain, open, open, wood, open, mountain, open, mountain, open, mountain, desert, open, open, wood, wood, open, wood, open, open, wood, wood, wood, wood, wood, desert, open, mountain, desert, wood, mountain, open, mountain, mountain, wood, wood, open, swamp, wood, wood, wood, swamp, mountain, open, wood, open, open, desert, mountain, desert, desert, open, open, open, wood, wood],
+[mountain, mountain, mountain, desert, desert, desert, open, open, open, open, desert, open, open, wood, wood, open, open, desert, open, open, desert, open, wood, wood, open, wood, open, open, wood, open, open, open, open, desert, mountain, mountain, wood, wood, swamp, mountain, mountain, mountain, open, open, wood, open, swamp, wood, wood, wood, wood, open, wood, wood, desert, desert, open, open, desert, desert, desert, desert, open, wood],
+[mountain, mountain, mountain, desert, desert, desert, open, wood, open, open, open, open, wood, mountain, open, open, desert, mountain, open, open, desert, open, open, wood, open, open, wood, open, wood, open, mountain, mountain, desert, desert, mountain, mountain, mountain, open, wood, wood, wood, wood, open, wood, open, open, wood, wood, wood, wood, open, open, wood, wood, desert, mountain, mountain, open, open, desert, desert, desert, wood, wood],
+[mountain, mountain, desert, desert, desert, desert, wood, wood, wood, open, mountain, open, wood, wood, open, open, open, mountain, mountain, open, desert, open, wood, open, wood, open, open, open, wood, open, wood, wood, wood, wood, wood, mountain, open, desert, open, wood, wood, wood, open, open, wood, mountain, open, wood, wood, wood, open, open, open, open, mountain, mountain, open, open, mountain, desert, mountain, desert, desert, mountain],
+[mountain, mountain, mountain, mountain, mountain, mountain, desert, swamp, open, open, mountain, mountain, open, wood, wood, open, mountain, open, open, open, desert, desert, desert, open, wood, wood, swamp, open, wood, wood, open, wood, swamp, open, open, mountain, desert, desert, open, open, mountain, open, mountain, open, mountain, mountain, open, wood, wood, open, wood, open, open, open, desert, mountain, mountain, mountain, desert, mountain, desert, desert, desert, mountain],
+[mountain, mountain, mountain, mountain, wood, wood, open, open, swamp, swamp, wood, wood, open, wood, open, mountain, open, open, open, wood, open, open, desert, desert, mountain, wood, open, open, open, wood, mountain, mountain, open, swamp, wood, open, mountain, desert, desert, open, desert, mountain, open, mountain, open, open, wood, wood, open, wood, wood, open, swamp, open, desert, mountain, mountain, open, desert, desert, mountain, desert, mountain, open],
+[mountain, open, open, open, mountain, mountain, mountain, open, swamp, swamp, swamp, wood, open, mountain, wood, wood, mountain, wood, wood, wood, wood, wood, open, desert, mountain, wood, open, open, wood, wood, wood, wood, wood, wood, swamp, wood, desert, desert, open, open, desert, mountain, open, mountain, swamp, open, open, open, open, wood, open, open, swamp, swamp, wood, desert, desert, open, mountain, desert, mountain, mountain, wood, mountain],
+[mountain, mountain, mountain, open, swamp, mountain, open, open, wood, swamp, wood, wood, mountain, mountain, open, open, open, open, open, open, wood, wood, wood, wood, mountain, mountain, open, open, open, mountain, open, wood, wood, wood, wood, wood, mountain, desert, wood, open, mountain, mountain, open, open, swamp, open, open, open, wood, open, wood, wood, wood, swamp, wood, desert, open, open, open, desert, desert, mountain, open, mountain],
+[mountain, desert, desert, wood, swamp, mountain, desert, desert, swamp, swamp, swamp, wood, mountain, open, open, open, open, wood, wood, wood, open, mountain, open, wood, mountain, mountain, open, wood, wood, wood, desert, wood, wood, wood, wood, open, open, desert, open, open, open, mountain, open, open, swamp, open, open, open, wood, wood, open, open, swamp, swamp, desert, desert, open, open, desert, desert, mountain, wood, open, mountain],
+[mountain, desert, wood, wood, wood, mountain, desert, desert, open, swamp, open, wood, desert, open, open, mountain, wood, wood, wood, mountain, wood, open, wood, wood, open, mountain, open, wood, open, open, desert, desert, desert, wood, mountain, swamp, desert, desert, wood, open, open, mountain, open, open, swamp, open, open, wood, open, swamp, wood, open, swamp, swamp, swamp, desert, desert, desert, open, open, desert, wood, wood, open],
+[desert, desert, desert, desert, mountain, mountain, open, open, swamp, swamp, wood, wood, desert, mountain, open, open, mountain, mountain, mountain, mountain, wood, wood, open, open, wood, wood, open, wood, swamp, open, desert, desert, wood, wood, open, swamp, swamp, desert, wood, wood, wood, open, open, mountain, mountain, open, wood, wood, swamp, open, wood, open, wood, open, desert, desert, desert, desert, desert, mountain, mountain, mountain, desert, open],
+[desert, desert, desert, desert, desert, open, mountain, wood, open, swamp, swamp, open, wood, wood, wood, wood, wood, wood, wood, mountain, wood, wood, mountain, open, open, wood, open, open, wood, wood, open, desert, wood, wood, mountain, mountain, desert, desert, wood, wood, mountain, mountain, open, wood, open, open, open, mountain, open, open, wood, open, wood, desert, open, desert, desert, desert, open, mountain, mountain, open, mountain, open],
+[desert, mountain, desert, desert, open, open, mountain, open, swamp, swamp, open, open, wood, wood, wood, wood, wood, wood, desert, wood, mountain, mountain, open, open, wood, wood, open, open, wood, wood, desert, desert, wood, wood, wood, wood, wood, wood, desert, wood, mountain, mountain, open, open, wood, open, open, mountain, open, open, wood, open, desert, desert, open, desert, desert, mountain, open, wood, open, open, desert, mountain],
+[desert, desert, mountain, mountain, desert, open, mountain, mountain, open, wood, swamp, swamp, open, open, open, wood, open, wood, mountain, wood, wood, mountain, open, open, wood, wood, open, wood, wood, wood, desert, desert, wood, wood, wood, wood, open, wood, desert, desert, open, open, mountain, mountain, wood, open, mountain, mountain, mountain, mountain, wood, wood, wood, wood, wood, wood, wood, open, wood, open, open, mountain, wood, wood],
+[desert, desert, desert, wood, mountain, desert, desert, open, wood, wood, open, open, wood, open, wood, wood, wood, open, open, wood, open, wood, wood, mountain, mountain, mountain, mountain, wood, wood, open, open, open, desert, wood, wood, open, wood, wood, desert, desert, open, swamp, swamp, mountain, wood, wood, wood, mountain, wood, mountain, wood, wood, wood, wood, wood, wood, open, open, wood, wood, open, open, open, wood],
+[desert, desert, wood, wood, desert, desert, open, open, wood, open, open, open, swamp, swamp, mountain, wood, open, open, wood, wood, open, open, open, open, open, wood, open, open, wood, wood, open, open, wood, mountain, open, mountain, wood, mountain, mountain, open, mountain, mountain, open, mountain, wood, wood, wood, wood, mountain, mountain, mountain, open, open, open, open, wood, open, open, mountain, open, wood, wood, open, open],
+[desert, desert, desert, wood, desert, desert, desert, desert, desert, desert, desert, mountain, wood, wood, mountain, open, wood, open, wood, wood, wood, open, wood, open, mountain, open, wood, open, open, open, wood, open, mountain, mountain, open, mountain, open, mountain, open, mountain, open, open, open, mountain, wood, open, wood, wood, wood, mountain, swamp, swamp, wood, open, wood, wood, mountain, desert, mountain, open, open, open, wood, open],
+[desert, desert, open, wood, desert, mountain, open, mountain, mountain, desert, mountain, mountain, mountain, mountain, open, open, wood, open, wood, open, mountain, open, wood, open, mountain, mountain, mountain, mountain, open, mountain, mountain, open, open, mountain, open, open, mountain, wood, wood, open, mountain, mountain, open, open, wood, mountain, open, desert, desert, mountain, swamp, swamp, wood, wood, mountain, wood, open, open, mountain, open, open, mountain, wood, wood],
+[mountain, mountain, desert, desert, mountain, mountain, wood, wood, open, open, open, open, open, mountain, open, open, wood, mountain, wood, wood, mountain, open, open, open, swamp, mountain, mountain, open, open, open, mountain, mountain, open, mountain, mountain, mountain, open, open, wood, wood, open, open, mountain, open, wood, wood, wood, desert, mountain, open, open, swamp, swamp, wood, mountain, mountain, wood, wood, wood, wood, mountain, mountain, mountain, wood],
+[mountain, mountain, desert, desert, mountain, mountain, mountain, wood, swamp, open, open, wood, wood, wood, wood, mountain, open, mountain, mountain, wood, open, open, mountain, open, swamp, open, open, open, open, open, mountain, open, open, open, open, open, open, open, wood, wood, open, open, mountain, open, wood, wood, desert, desert, mountain, open, swamp, wood, wood, wood, open, open, mountain, mountain, open, mountain, open, open, open, wood],
+[mountain, desert, open, desert, desert, desert, wood, wood, open, open, wood, swamp, wood, wood, mountain, mountain, wood, wood, open, wood, open, open, open, open, wood, open, open, open, open, open, wood, open, desert, desert, desert, desert, desert, open, open, wood, open, open, mountain, mountain, mountain, wood, wood, open, desert, open, swamp, wood, wood, open, wood, wood, open, mountain, open, open, mountain, open, open, wood],
+
+Cities:
+
+(62, 7), Stone
+(13, 4), Wood, Textile
+(7, 16), Wood
+(42, 28), Produce, Ore
+(34, 3), Ore, Stone
+(52, 62), Wood
+(40, 14), Textile, Clay
+(26, 46), Produce, Wood
+(29, 43), Stone
+(26, 34), Wood
+(49, 0), Clay
+(5, 41), Produce, Wood
+(49, 52), Produce
+(42, 16), Clay
+(17, 21), Produce, Clay
+(46, 56), Wood, Stone
+(41, 44), Produce, Wood, Stone
+(38, 22), Ore
+(0, 18), Produce, Clay
+(46, 34), Produce, Ore
+(10, 32), Ore, Stone
+(48, 48), Wood
+(41, 3), Produce
+(20, 16), Wood, Clay
+(60, 21), Produce
+(28, 37), Stone
+(40, 62), Produce, Ore
+(28, 41), Wood, Ore, Clay
+(48, 36), Clay
+(8, 50), Stone
+(34, 60), Stone
+(41, 24), Stone
+(18, 5), Textile
+(16, 28), Produce, Ore
+(24, 21), Clay
+(36, 3), Wood
+(51, 1), Produce, Wood, Clay
+(43, 16), Clay
+(54, 29), Ore
+(24, 8), Stone, Clay
+(42, 38), Ore, Stone
+(32, 34), Produce, Stone, Textile
+(53, 11), Stone
+(12, 23), Produce, Wood, Ore
+(57, 42), Stone
+(28, 62), Textile
+(2, 26), Ore
+(28, 53), Produce
+(56, 58), Wood
+(43, 40), Ore, Clay
+(11, 43), Stone
+(6, 55), Produce
+(35, 14), Wood, Stone
+(8, 12), Wood, Textile
+(47, 27), Ore
+(30, 48), Produce, Wood
+(56, 60), Textile, Clay
+(23, 14), Textile
+(20, 38), Wood, Ore, Textile
+(41, 32), Ore
+(57, 15), Stone, Clay
+(55, 38), Produce, Wood, Ore
+(14, 50), Produce, Textile
+(30, 5), Wood, Ore
+(34, 18), Stone
+(44, 24), Wood, Clay
+(62, 21), Stone
+(43, 21), Wood, Clay
+(58, 0), Produce
+(33, 14), Stone, Textile
+(7, 57), Clay
+(12, 27), Produce, Wood, Ore, Textile
+(42, 32), Ore
+(28, 60), Wood, Ore, Clay
+(20, 36), Clay
+(51, 50), Wood, Textile, Clay
+(31, 52), Produce, Wood, Ore
+(39, 6), Produce
+(13, 39), Ore, Stone, Textile
+(59, 47), Ore
+(55, 34), Wood, Ore, Stone, Clay
+(39, 1), Textile, Clay
+(58, 56), Produce, Clay
+(20, 23), Produce, Wood, Stone, Textile
+(37, 38), Wood
+(23, 50), Wood, Clay
+(44, 27), Ore, Stone
+(52, 44), Ore
+(43, 55), Textile
+(37, 59), Produce
+(0, 28), Stone
+(45, 40), Ore
+(1, 43), Wood
+(58, 9), Ore, Clay
+(40, 25), Stone, Textile
+(55, 21), Produce
+(53, 57), Ore
+(21, 53), Wood
+(42, 52), Stone
+(35, 26), Clay
+(45, 35), Produce, Textile, Clay
+(57, 36), Produce
+(44, 4), Ore, Textile
+(15, 16), Produce, Stone, Textile, Clay
+(46, 31), Produce, Ore, Clay
+(13, 20), Produce, Textile
+(49, 38), Textile
+(62, 6), Stone
+(60, 62), Stone
+(0, 10), Clay
+(47, 52), Ore
+(40, 39), Stone
+(57, 56), Produce, Ore, Clay
+(56, 21), Wood
+(47, 18), Ore, Stone
+(12, 55), Produce
+(57, 33), Textile
+(29, 21), Ore, Stone, Textile
+(52, 50), Clay
+(11, 21), Wood, Textile
+(48, 16), Wood
+(8, 41), Stone
+(15, 32), Produce
+(17, 0), Wood
+(51, 35), Produce, Wood
+(53, 24), Stone, Textile
+(8, 10), Stone, Clay
+(3, 33), Stone
+(24, 39), Wood, Ore, Stone
+(44, 48), Produce, Stone
+(19, 47), Produce, Clay
+(34, 57), Produce, Stone
+(57, 50), Ore, Textile
+(7, 27), Ore
+(52, 14), Produce, Stone
+(46, 52), Wood, Ore
+(9, 27), Textile
+(63, 7), Textile
+(11, 33), Produce, Ore, Textile
+(41, 13), Stone
+(53, 44), Wood, Ore
+(18, 60), Stone
+(4, 40), Produce
+(9, 58), Wood
+(22, 9), Ore
+(13, 18), Textile
+(18, 39), Ore
+(24, 29), Produce
+(58, 7), Produce
+(31, 22), Clay
+(36, 12), Ore
+(57, 51), Wood, Stone, Textile, Clay
+(8, 4), Textile
+(38, 42), Ore, Clay
+(25, 39), Stone, Textile
+(30, 54), Ore
+(24, 35), Ore, Clay
+(59, 48), Produce, Clay
+(17, 38), Stone
+(14, 32), Wood, Textile
+(63, 35), Wood, Stone, Textile
+(0, 11), Ore, Stone, Textile
+(61, 28), Ore, Textile
+(36, 23), Wood, Stone
+(55, 51), Produce
+(7, 59), Wood, Clay
+(55, 13), Ore, Textile, Clay
+(33, 0), Textile
+(40, 63), Ore, Textile, Clay
+(40, 9), Wood, Clay
+(56, 35), Produce, Wood, Stone
+(15, 0), Stone
+(56, 48), Wood, Textile
+(39, 53), Ore, Clay
+(31, 63), Ore, Stone
+(12, 6), Textile
+(17, 34), Produce, Textile
+(25, 1), Stone, Textile
+(6, 53), Clay
+(31, 45), Stone
+(18, 0), Ore, Stone, Textile
+(36, 0), Produce, Wood, Stone
+(19, 55), Wood
+(55, 17), Produce, Ore
+(19, 57), Wood, Textile, Clay
+(62, 2), Ore, Stone
+(46, 24), Produce
+(0, 51), Produce, Ore
+(45, 48), Wood
+(26, 14), Wood
+(29, 9), Ore, Stone, Textile
+(11, 60), Wood, Textile
+(50, 62), Produce, Wood, Stone
+(20, 9), Produce, Ore
+(28, 21), Produce
+(20, 1), Stone
+(48, 41), Stone
+(62, 12), Ore, Textile
+(0, 2), Stone
+(8, 22), Produce, Textile
+(9, 53), Produce, Wood, Textile
+(58, 14), Stone
+(53, 48), Produce, Ore
+(35, 22), Produce, Wood
+(14, 17), Produce, Clay
+(25, 59), Ore
+(54, 19), Wood, Textile
+(35, 30), Produce, Wood, Textile
+(57, 63), Wood
+(29, 58), Textile
+(41, 48), Produce, Wood
+(56, 13), Textile
+(20, 61), Ore, Stone, Clay
+(46, 41), Produce, Textile
+(49, 22), Ore, Clay
+(26, 27), Ore
+(30, 19), Wood, Stone
+(0, 8), Wood, Clay
+(11, 15), Produce
+(58, 5), Clay
+(1, 6), Stone
+(9, 5), Textile
+(32, 46), Produce
+(0, 53), Ore, Stone
+(0, 7), Ore, Textile
+(61, 52), Produce, Ore, Textile
+(1, 24), Wood
+(59, 33), Produce
+(53, 62), Stone
+(20, 13), Wood
+(16, 61), Produce
+(41, 11), Wood, Stone
+(43, 15), Produce, Ore
+(37, 2), Produce, Textile
+(43, 23), Stone, Clay
+(10, 31), Clay
+(53, 45), Stone
+(56, 56), Ore
+(32, 8), Wood, Stone
+(61, 48), Ore, Stone
+(32, 18), Wood
+(5, 6), Ore
+(10, 53), Textile
+(35, 36), Stone
+(46, 2), Produce, Stone
+(7, 4), Wood, Stone
+(29, 39), Wood, Stone, Clay
+(35, 33), Stone, Textile, Clay
+(25, 24), Produce, Ore, Textile
+(13, 6), Produce
+(54, 24), Wood
+(20, 33), Wood, Clay
+(48, 10), Produce, Ore, Clay
+(31, 17), Ore
+(0, 31), Textile
+(43, 56), Produce, Ore
+(52, 2), Textile, Clay
+(40, 21), Ore, Clay
+(34, 15), Produce, Wood
+(34, 38), Clay
+(8, 54), Wood
+(6, 48), Stone
+(20, 59), Clay
+(1, 27), Wood
+(25, 40), Wood
+(60, 55), Textile
+(25, 62), Ore
+(8, 18), Textile
+(14, 45), Textile
+(59, 1), Produce, Ore, Stone, Textile
+(4, 26), Stone
+(60, 60), Stone
+(23, 2), Textile
+(10, 26), Clay
+(56, 2), Textile, Clay
+(46, 40), Produce, Wood
+(17, 62), Ore, Textile
+(53, 4), Wood
+(31, 44), Produce
+(29, 10), Textile
+(55, 39), Wood
+(36, 34), Textile, Clay
+(29, 31), Ore, Clay
+(9, 15), Textile, Clay
+(51, 21), Stone
+(27, 56), Ore
+(21, 28), Textile
+(62, 53), Wood, Textile, Clay
+(7, 7), Wood
+(8, 2), Ore
+(31, 58), Wood
+(18, 12), Produce, Ore
+(5, 49), Stone
+(13, 46), Produce
+(14, 51), Ore
+(13, 50), Clay
+(31, 46), Ore
+(33, 61), Produce, Textile
+(4, 54), Ore, Stone
+(55, 59), Wood, Stone
+(31, 43), Textile
+(33, 31), Stone, Textile
+(14, 1), Clay
+(44, 20), Ore, Clay
+(4, 53), Wood, Ore
+(60, 23), Wood, Ore, Clay
+(33, 11), Wood, Stone, Textile
+(1, 21), Stone, Textile
+(19, 58), Clay
+(62, 44), Wood
+(15, 18), Produce, Textile, Clay
+(37, 34), Wood, Textile
+(9, 46), Ore, Clay
+(63, 33), Produce
+(33, 16), Wood, Textile
+(46, 38), Textile
+(5, 26), Stone
+(15, 46), Wood, Textile
+(49, 57), Ore, Clay
+(52, 60), Produce
+(5, 56), Produce, Wood, Textile
+(54, 23), Produce, Stone
+(55, 62), Wood, Textile
+(4, 41), Ore, Clay
+(32, 60), Produce
+(49, 47), Wood, Stone, Clay
+(30, 12), Produce
+(41, 18), Textile
+(55, 60), Wood, Stone
+(37, 30), Textile
+(21, 50), Textile
+(45, 20), Textile
+(50, 44), Textile
+(41, 43), Clay
+(48, 63), Wood
+(30, 39), Produce, Wood, Ore, Stone
+(45, 60), Stone, Textile
+(14, 57), Ore
+(27, 24), Produce, Ore
+(18, 9), Produce, Ore
+(55, 57), Wood
+(59, 22), Wood, Stone, Textile
+(2, 30), Textile
+(50, 38), Clay
+(34, 24), Textile
+(9, 37), Stone
+(62, 39), Stone
+(13, 63), Produce
+(2, 52), Clay
+(8, 48), Clay
+(45, 58), Produce, Ore, Textile, Clay
+(45, 59), Wood
+(27, 11), Ore, Stone, Clay
+(24, 2), Wood, Stone
+(27, 41), Stone, Textile, Clay
+(8, 9), Textile
+(1, 37), Stone, Textile
+(59, 52), Produce
+(60, 22), Ore
+(5, 44), Produce
+(13, 1), Wood, Clay
+(11, 51), Ore
+(50, 12), Clay
+(38, 31), Produce, Clay
+(15, 27), Produce, Textile
+(23, 57), Clay
+(51, 46), Stone, Clay
+(51, 56), Stone, Textile
+(31, 2), Clay
+(9, 26), Textile
+(12, 17), Textile
+(22, 7), Produce, Textile, Clay
+(54, 45), Ore
+(50, 29), Produce, Ore, Clay
+(59, 37), Textile
+(16, 62), Ore
+(35, 40), Ore
+(60, 7), Stone, Textile
+(24, 6), Ore
+(9, 47), Ore, Stone
+(50, 22), Ore, Clay
+(39, 20), Ore
+(63, 2), Ore, Stone, Clay
+(5, 54), Produce, Wood, Ore
+(23, 39), Clay
+(57, 16), Produce, Stone, Clay
+(40, 35), Produce
+(39, 17), Produce
+(6, 22), Wood, Ore
+(35, 41), Wood, Stone, Clay
+(41, 14), Ore
+(15, 45), Textile
+(15, 47), Produce, Stone, Clay
+(16, 18), Stone
+(15, 43), Stone
+(45, 11), Ore
+(0, 62), Produce, Ore, Stone, Textile
+(45, 1), Clay
+(53, 23), Stone
+(39, 24), Wood, Ore
+(5, 20), Ore
+(47, 57), Wood
+(7, 1), Produce, Wood
+(5, 14), Produce
+(26, 28), Ore
+(4, 14), Ore, Clay
+(40, 20), Textile
+(45, 14), Produce, Wood
+(14, 29), Produce, Wood, Stone, Textile
+(43, 51), Ore
+(17, 17), Ore, Clay
+(19, 21), Wood
+(42, 36), Produce
+(28, 43), Textile, Clay
+(34, 61), Produce
+(53, 53), Ore, Clay
+(23, 44), Wood
+(58, 41), Stone
+(38, 7), Produce, Stone, Textile
+(15, 60), Stone
+(10, 17), Ore
+(4, 63), Produce, Ore
+(46, 61), Produce, Textile
+(61, 34), Produce, Wood, Ore, Textile
+(53, 51), Wood
+(56, 53), Produce
+(63, 56), Produce
+(45, 26), Produce, Wood, Clay
+(4, 47), Wood, Textile
+(48, 11), Stone
+(27, 9), Textile
+(29, 60), Stone
+(44, 5), Produce
+(46, 18), Produce, Clay
+(42, 9), Produce
+(54, 6), Ore, Stone
+(34, 16), Wood
+(28, 7), Wood
+(42, 37), Wood
+(11, 17), Wood, Textile, Clay
+(43, 41), Produce, Clay
+(48, 47), Produce, Ore
+(20, 57), Wood
+(47, 44), Textile
+(18, 17), Produce, Wood, Clay
+(1, 2), Clay
+(36, 38), Ore
+(36, 28), Produce
+(25, 11), Stone, Textile, Clay
+(18, 16), Produce
+(39, 16), Stone
+(31, 21), Produce, Ore
+(34, 32), Produce, Clay
+(61, 37), Ore
+(19, 19), Wood
+(45, 53), Wood, Clay
+(5, 4), Wood, Stone, Textile
+(19, 29), Wood, Textile
+(58, 16), Ore
+(43, 63), Produce
+(53, 42), Textile
+(63, 62), Ore
+(47, 36), Stone, Clay
+(35, 13), Ore, Clay
+(53, 50), Wood
+(54, 36), Ore, Textile
+(26, 42), Ore
+(40, 19), Stone
+(14, 60), Textile
+(1, 15), Produce, Ore
+(28, 6), Produce, Ore, Stone, Textile
+(8, 63), Wood, Textile
+(26, 29), Ore
+(17, 11), Clay
+(23, 42), Wood, Ore
+(54, 60), Wood, Clay
+(14, 24), Wood
+(24, 63), Wood, Stone, Textile
+(16, 13), Wood
+(38, 4), Produce
+(38, 20), Ore, Stone
+(53, 27), Stone
+(56, 46), Ore
+(2, 15), Stone
+(36, 31), Produce
+(49, 3), Produce, Wood
+(10, 39), Stone
+(3, 30), Produce
+(51, 51), Wood, Ore
+(11, 52), Wood, Ore
+(58, 32), Wood, Ore
+(44, 49), Wood, Ore, Stone
+(29, 22), Textile
+(29, 55), Stone
+(18, 38), Clay
+(62, 13), Textile
+(0, 3), Produce, Wood, Textile
+(10, 19), Wood
+(22, 37), Produce, Ore
+(9, 21), Produce, Wood, Ore
+(27, 30), Textile
+(14, 44), Stone
+(21, 7), Wood
+(25, 49), Wood, Textile
+(56, 34), Produce
+(15, 12), Stone
+(20, 46), Produce, Wood, Clay
+(35, 5), Clay
+(32, 20), Produce, Ore, Stone
+(35, 18), Stone
+(61, 43), Clay
+(38, 63), Produce, Wood

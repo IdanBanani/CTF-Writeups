@@ -1,0 +1,1 @@
+flag = "CSA{D0n't_G4mbl3_W1th_youR_pRnG_SeeD5}"

@@ -1,0 +1,21 @@
+Map terrain:
+
+[open, open, open, wood, wood, wood, wood, wood],
+[open, open, wood, open, open, wood, wood, wood],
+[open, open, open, open, wood, wood, open, open],
+[open, open, open, mountain, open, wood, wood, mountain],
+[open, open, desert, desert, desert, open, wood, wood],
+[wood, open, desert, desert, open, open, wood, wood],
+[wood, wood, open, open, mountain, desert, open, open],
+[wood, wood, open, wood, desert, open, mountain, mountain]
+
+ Cities:
+ 
+(4, 4), Stone
+(3, 5), Produce, Stone
+(4, 3), Textile, Clay
+(6, 4), Wood, Clay
+(1, 5), Ore, Textile, Clay
+(2, 5), Ore, Stone
+(5, 1), Ore
+(6, 7), Produce, Ore
