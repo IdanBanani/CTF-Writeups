@@ -1,0 +1,19 @@
+ https://gchq.github.io/CyberChef/ - getting the file type (zip/gz)
+ https://wiremask.eu/tools/xor-cracker/ - didn't work 
+ 
+ 
+ https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Base64','string':'xor'%7D,'Standard',false)
+ download decrypted file and change to .zip
+ powershell - 
+ 
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape("$"),""}
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape("["),""}
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape("x"),""}
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape(" "),""}
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape("_"),""}
+dir | rename-item -NewName {$_.name -replace [Regex]::Escape("T"),""}
+ 
+ UTFOQmUxTjBNemxoVGpCZklXNWZaREJqWHpGelgwNHhZek45
+ 
+foremost (get image) -> zsteg -> double encoded base64 flag
+CSA{St39aN0_!n_d0c_1s_N1c3}

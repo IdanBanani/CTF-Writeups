@@ -1,0 +1,6 @@
+https://github.com/davecom/MazeSolvingGUI/blob/master/maze_gui.py
+https://github.com/mrinvisible0/MazeSolver/blob/master/src/maze.py
+https://github.com/jallurikoushik123/AI-project/blob/master/Labyrinth%20Depth%20first%20search/labyrinth_copy.py
+https://github.com/san2heg/maze-solver/blob/master/main.py
+https://github.com/haliaeetus/graph-search-visualizer/blob/cea6ad8fb21fd3372fff76edd701670296019e19/dfs.py - with yield but without send
+https://github.com/pekaalto/mazes - solving a maze

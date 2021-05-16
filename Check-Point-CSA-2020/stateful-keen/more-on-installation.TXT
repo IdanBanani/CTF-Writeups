@@ -1,0 +1,11 @@
+keen - (I've written a solver, but need to play the game...)
+	- seems like prince of persia solution (csa 2019)
+------------------------------------------------------
+
+https://news.ycombinator.com/item?id=8326883
+https://x3ro.de/compiling-keen-dreams-within-dosbox-on-os-x/
+
+ https://www.groovypost.com/howto/enable-16-bit-application-support-windows-10/
+https://stackoverflow.com/questions/27830663/need-c-compiler-for-windows-7-64-bit-to-compile-to-dos-target
+http://www.brlowe.co.uk	/
+-------------------------------------

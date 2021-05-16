@@ -1,0 +1,26 @@
+ ה-axis אצלי נכונים בדקתי את זה 
+ כי הסתכלתי בקוד של IN_ReadControl 
+ אני לוחץ ימינה ורואה שהמערכת מתייחסת לזה כ-x = 127 
+אני מריץ את המשחק, ואז רואה מה קורה כשאני לוחץ על ימינה
+ אני כותב מחרוזות דיבאג לקובץ ומשתמש ב-tail -f לראות מה קורה תוך כדי המשחק 
+  אז הערכים נכונים בוודאות 
+  
+  if (curr_move == 50) {
+1561 IN_ReadControl(0,&c); // get player input
+1562 }
+1563 else {
+1564 record = autolevels[_level];
+1565 c.dir = (*record)[curr_move][0];
+1566 c.x = (*record)[curr_move][2];
+1567 c.y = (*record)[curr_move][3];
+1568 c.button0 = c.button1 = 0;
+1569 c.xaxis = c.x >= 0 ? c.x == 0 ? 0:1:-1;
+1570 c.yaxis = c.y >= 0 ? c.y == 0 ? 0:1:-1;
+1571
+1572 if (counter == c.dir-1) {
+1573 curr_move++;
+1574 counter = 0;
+1575 }
+1576 else {
+1577 counter++;
+1578

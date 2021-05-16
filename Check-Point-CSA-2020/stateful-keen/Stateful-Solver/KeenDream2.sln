@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeenDream2", "KeenDream2\KeenDream2.vcxproj", "{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Debug|x64.ActiveCfg = Debug|x64
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Debug|x64.Build.0 = Debug|x64
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Debug|x86.Build.0 = Debug|Win32
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Release|x64.ActiveCfg = Release|x64
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Release|x64.Build.0 = Release|x64
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Release|x86.ActiveCfg = Release|Win32
+		{39320CF6-85BF-4BEC-A3CE-20B4DA3D35D1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDCD247E-1C33-4AE9-82DF-EC4259F30AFE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+Can you see it
+317 x 1438 -resolution
+CSA{Ev3ry_mov1e_must_hav3_a_Purpos3}
+
+[USE ffmpeg to extract all the frames from the video (Dont open the folder in explorer! too many files, use terminal/cmd)

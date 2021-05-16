@@ -1,0 +1,42 @@
+cat /etc/group
+ssh:x:105:
+csa:x:1000:
+pcap:x:1001:
+
+
+csa@2d9cadf1ebc0:/etc$ hostname
+2d9cadf1ebc0
+
+
+csa@2d9cadf1ebc0:/etc$ cat /etc/resolv.conf
+search eu-central-1.compute.internal
+nameserver 127.0.0.11
+options ndots:0
+
+
+csa@2d9cadf1ebc0:/etc$ cat hosts
+127.0.0.1       localhost
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+192.168.112.2   2d9cadf1ebc0
+172.16.238.3    2d9cadf1ebc0
+
+
+
+csa@2d9cadf1ebc0:~$ nmap -sn 172.16.238.3/24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-08-31 09:54 UTC
+Nmap scan report for 172.16.238.1
+Host is up (0.00031s latency).
+Nmap scan report for ubuntu_server-in_1.ubuntu_local-net (172.16.238.2)
+Host is up (0.00037s latency).
+Nmap scan report for 2d9cadf1ebc0 (172.16.238.3)
+Host is up (0.00030s latency).
+Nmap scan report for ubuntu_client_1.ubuntu_local-net (172.16.238.4)
+Host is up (0.00024s latency).
+Nmap done: 256 IP addresses (4 hosts up) scanned in 15.91 seconds
+csa@2d9cadf1ebc0:~$
+

@@ -1,0 +1,126 @@
+sudo tcpdump -A -s 10240 'tcp port 4080
+-s 0  to make sure you get the whole packet.
+
+csa@2d9cadf1ebc0:~$ nmap -A 172.16.238.1-4 -p 0-65535 -T5 -vv
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-08-31 09:59 UTC
+NSE: Loaded 146 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 09:59
+Completed NSE at 09:59, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 09:59
+Completed NSE at 09:59, 0.00s elapsed
+Initiating Ping Scan at 09:59
+Scanning 4 hosts [2 ports/host]
+Completed Ping Scan at 09:59, 0.00s elapsed (4 total hosts)
+Initiating Parallel DNS resolution of 4 hosts. at 09:59
+Completed Parallel DNS resolution of 4 hosts. at 09:59, 13.00s elapsed
+Initiating Connect Scan at 09:59
+Scanning 4 hosts [65536 ports/host]
+--------------------------------------------------------------------------------------
+Discovered open port 22/tcp on 172.16.238.1
+Discovered open port 22/tcp on 172.16.238.3
+Discovered open port 1337/tcp on 172.16.238.2
+Completed Connect Scan against 172.16.238.3 in 19.65s (3 hosts left)
+Completed Connect Scan against 172.16.238.4 in 19.82s (2 hosts left)
+Completed Connect Scan against 172.16.238.2 in 19.88s (1 host left)
+Completed Connect Scan at 10:00, 20.23s elapsed (262144 total ports)
+-----------------------------------------------------------------------------------------
+Initiating Service scan at 10:00
+Scanning 3 services on 4 hosts
+Stats: 0:00:54 elapsed; 0 hosts completed (4 up), 4 undergoing Service Scan
+Service scan Timing: About 66.67% done; ETC: 10:00 (0:00:11 remaining)
+Stats: 0:00:55 elapsed; 0 hosts completed (4 up), 4 undergoing Service Scan
+Service scan Timing: About 66.67% done; ETC: 10:00 (0:00:11 remaining)
+Stats: 0:01:00 elapsed; 0 hosts completed (4 up), 4 undergoing Service Scan
+Service scan Timing: About 66.67% done; ETC: 10:00 (0:00:14 remaining)
+Completed Service scan at 10:00, 32.06s elapsed (3 services on 4 hosts)
+NSE: Script scanning 4 hosts.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 10:00
+Completed NSE at 10:00, 0.19s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 10:00
+Completed NSE at 10:00, 1.02s elapsed
+
+
+
+Nmap scan report for 172.16.238.1
+Host is up, received conn-refused (0.00023s latency).
+Scanned at 2020-08-31 09:59:42 UTC for 66s
+Not shown: 65533 closed ports
+Reason: 65533 conn-refused
+PORT     STATE    SERVICE      REASON      VERSION
+-----------------------------------------------------------------------------------------
+22/tcp   open     ssh          syn-ack     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 b4:5e:6d:f5:c3:f3:51:c0:39:f1:c8:52:bc:75:89:c7 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCabIV4pTqEtjweYNZ0TdoAg6kdSfNIOPfeG0RG4mNmq76knFZ1Kro+Szr7gtNQcdWti30akpiIKAyvTH8UAZdUwJI70z6iql9+jaSyVqD2DSJyu3d8EZzHIaBzVMvw5s6Yw3UjYZF1OpFY+tpaWPTLKhpSEBN7kQlJqoh7smgRFXx0PzIDxQ9uIFP8ANC45AmUA0HEhhPOKEGt2/wh+A7mTDK+WBdaoN71ijY6fcpdVTFdFB5/F3G6yAket/JB1snw5pcxtN0S34YkrNkh6Z08k11a9ZQ5Rjk4QB6KUUR4vARhuQu0g4iUYidxkFGrxbyE9gAXGtFYuY6WohYK6387
+|   256 24:b3:f2:fa:e4:7d:80:9a:bf:ba:26:62:79:aa:16:3c (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJtnQolsRNZA/gInCop1FsrVLVN6EiQ+ylydn+Sny8b3Tj8P/YO8RAdOdFAvZ1O0mvVVmdCxtKli/8wHdeq1+Nw=
+|   256 30:46:30:a3:18:8a:6d:d8:d2:e2:3d:ee:8e:26:18:89 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIImQGqqW2RjYTFZ1QLCwbFgKAJcHxHqLC4Px02iL8yyI
+80/tcp   filtered http         no-response
+2222/tcp filtered EtherNetIP-1 no-response
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+-----------------------------------------------------------------------------------------
+
+
+
+
+Nmap scan report for ubuntu_server-in_1.ubuntu_local-net (172.16.238.2)
+Host is up, received conn-refused (0.0011s latency).
+Scanned at 2020-08-31 09:59:42 UTC for 67s
+Not shown: 65535 closed ports
+Reason: 65535 conn-refused
+-----------------------------------------------------------------------------------------
+PORT     STATE SERVICE REASON  VERSION
+1337/tcp open  waste?  syn-ack
+| fingerprint-strings:
+|   GenericLines, Help, JavaRMI, LPDString, NULL, TerminalServer, X11Probe:
+|_    3vD|
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1337-TCP:V=7.60%I=7%D=8/31%Time=5F4CCA36%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,20,"Yn\+\0\xb3I\xe7\x8d\xe0\xccXnE\x82\xc8\xd7\x0e`'\xf7j\xf0\"\r\xa
+SF:7\xa3\x1e3vD\|\xbb")%r(GenericLines,20,"Yn\+\0\xb3I\xe7\x8d\xe0\xccXnE\
+SF:x82\xc8\xd7\x0e`'\xf7j\xf0\"\r\xa7\xa3\x1e3vD\|\xbb")%r(Help,20,"Yn\+\0
+SF:\xb3I\xe7\x8d\xe0\xccXnE\x82\xc8\xd7\x0e`'\xf7j\xf0\"\r\xa7\xa3\x1e3vD\
+SF:|\xbb")%r(X11Probe,20,"Yn\+\0\xb3I\xe7\x8d\xe0\xccXnE\x82\xc8\xd7\x0e`'
+SF:\xf7j\xf0\"\r\xa7\xa3\x1e3vD\|\xbb")%r(LPDString,20,"Yn\+\0\xb3I\xe7\x8
+SF:d\xe0\xccXnE\x82\xc8\xd7\x0e`'\xf7j\xf0\"\r\xa7\xa3\x1e3vD\|\xbb")%r(Te
+SF:rminalServer,20,"Yn\+\0\xb3I\xe7\x8d\xe0\xccXnE\x82\xc8\xd7\x0e`'\xf7j\
+SF:xf0\"\r\xa7\xa3\x1e3vD\|\xbb")%r(JavaRMI,20,"Yn\+\0\xb3I\xe7\x8d\xe0\xc
+SF:cXnE\x82\xc8\xd7\x0e`'\xf7j\xf0\"\r\xa7\xa3\x1e3vD\|\xbb");
+-----------------------------------------------------------------------------------------
+Nmap scan report for 2d9cadf1ebc0 (172.16.238.3)
+Host is up, received conn-refused (0.00064s latency).
+Scanned at 2020-08-31 09:59:42 UTC for 66s
+Not shown: 65535 closed ports
+Reason: 65535 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 d5:5c:f4:2b:d2:ea:1e:10:19:76:52:3c:e4:9f:7c:d0 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvLOlJ+eTYOSHkuaxFByFxCVnuJJSRUNIOxPXwSnC8MwZu1MUGthbdRw6prqIVy4Dq8MExJ/1YEEpMkjqiDJWOeXrs//3oXVs4iohSMjkq4XFzshuJI9P5L2c2nVgyxPuH5sgH+40HjRillCqQJ582EDEWIsF+nMMsWYM07RFAfwc2aNtO5ObYfyNGYL8biYfxhFt1Bqf4M15l+A8Gm5eWufAx4G7/wRQkxnEI8e9+Rd/yd+aztWliImecbv50DQ2hQ628tIV77Kx3y5HLz7hGA9Oa+8unGGCEpv95xNSCzQbsIvWTqTOzDM9KpfcpkYbR0TOpBJSaQXdYSjPnp4LJ
+|   256 48:d1:c1:cf:a0:7d:8b:c0:66:c1:be:d0:fe:d3:d4:e8 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDiN7d89dy2QnDsQ/dO+fqKEWVtm1ErCIpmJ3vIqNFkvCPTGBZHGN2v5ZUF0hwEXdd55pzcdp1XEDBNMJBLe4Zo=
+|   256 14:9c:79:ac:40:2a:08:3e:08:bf:ae:59:a0:a6:13:92 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIId3n5stRFv35w3WeMBGrPCmRxu7iBLo4JuC/YCpOdFk
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for ubuntu_client_1.ubuntu_local-net (172.16.238.4)
+Host is up, received conn-refused (0.00078s latency).
+All 65536 scanned ports on ubuntu_client_1.ubuntu_local-net (172.16.238.4) are closed because of 65536 conn-refused
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 10:00
+Completed NSE at 10:00, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 10:00
+Completed NSE at 10:00, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 4 IP addresses (4 hosts up) scanned in 67.06 seconds

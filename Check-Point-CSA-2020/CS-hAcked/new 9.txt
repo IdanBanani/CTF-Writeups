@@ -1,0 +1,20 @@
+0000   52 54 00 12 35 02 08 00 27 0f ae 2f 08 00 45 00
+0010   00 31 a0 ee 40 00 40 06 5a 75 0a 00 02 0f 34 1c
+0020   ff 38 ec 2a 04 38 6d 8a fa ee 02 31 86 0c 50 18
+0030   fa e6 3f 87 00 00 5a 67 e5 a2 d2 49 b5 90 15
+
+
+csa@2d9cadf1ebc0:/etc$ cat resolv.conf 
+search eu-central-1.compute.internal
+nameserver 127.0.0.11
+options ndots:0
+
+csa@2d9cadf1ebc0:/etc$ cat hosts
+127.0.0.1       localhost
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+192.168.112.2   2d9cadf1ebc0
+172.16.238.3    2d9cadf1ebc0

@@ -1,0 +1,39 @@
+look for the ones with DFS / flag inside the open space in the maze:
+------------------------------------------------------------------------------
+dfs 225-C 280 - JAVA PYTHON -156 CּּPP - 170 C#-209
+https://github.com/tranminhduc4796/Intek/blob/ca64a0adf5ce76bc587ac5dd365d651665ff4adc/maze/maze_ia.py
+https://github.com/yo1995/Ultimate-emoticon-generator/blob/659ab861cfd69bec5555fbe545a6cb5a857546c2/maze-with-text/algorithms.py
+https://stackoverflow.com/questions/14668530/non-recursive-dfs-implementation
+https://github.com/Ktrio3/ctf_writeups/blob/b8794f278cce14039c4d6105f01dfec04f3587a6/Labyrenth-2017/dutch/maze_client.py
+https://hurna.io/academy/algorithms/maze_pathfinder/dfs.html
+
+https://github.com/jason-feng/AmazingProject/blob/baba0f1ac8ff7c09b29db9ee1d2d0b2524df77ab/src/avatar.c
+https://github.com/PrVrSs/tng/blob/6c33a4e6201e445f721ec014a0870f80013e8306/solutions/something/lb17_p_lvl_1.py
+https://github.com/HacktoberfestMunich/Hacky-Easter-2019/blob/774a941547030172ae65d4d5542f1d9fedb6257d/python/pixelflut.py
+https://www.blog.hatsec.io/ctf/python-maze-solver/
+
+Not that relevant:
+https://github.com/oscar311/ai-a3/blob/8a1298958eac582781f3d9c655b69e918786a8ca/src/agent.py
+https://github.com/zvikam/LabyREnth2017/blob/b123595aa27f8497341a1bc9615f98a1d622699e/Prog/Prog1/maze_client.py
+https://github.com/Antoine-Gicquel/FCSC2020-writeups/blob/5fa61a1ce32269d26b7c82adfd108f1132c19c22/misc/Mazopotamia/script.py
+https://github.com/nerijus-st/Maze-Solving/blob/master/left%20hand%20rule.py
+
+C solutions:
+https://github.com/rossguju1/Maze/blob/46458d0b1cb7684f5a10e194a11801b4afc57d0e/amazingClient.c
+https://github.com/awerchniak/cs50/blob/e85d2f0a40910ea031c414969cdfea70473445cd/projects/cs50SU16-MazedAndConfused/AMStartup.c
+
+not relevant but cute
+https://github.com/ashleysong0418/Maze-Solver/blob/c1559ad493592abdbbdd72dcc1d25a29258283c7/DESIGN.md
+https://github.com/tu-darmstadt-kilobots/kbMazerunner/blob/a92cb38870afc9cad61d036ceb87d343013d8a44/solve_maze.py
+https://github.com/klajosw/python/blob/e43cddfb5fec2072d3971e19ec89672654e44e94/kl_python_labirintus.ipynb
+https://github.com/AdityaHPrasad/MazeGame/blob/ce877bd056d416dbaf6ea88658e5af9bf974c225/maze/amazing_client.c
+https://zenhack.it/writeups/HackCon2018/amazeing/
+
+http://blog.labyrenth.com/community/
+https://fevral.github.io/2017/07/23/labyrenth-binary-3.html
+
+https://github.com/abeaumont/ctfs/blob/32ed31ec0d9b2819c0309bd1feb7ef3dde6792fa/codegate-quals-2018/miro/README.md
+
+https://github.com/abeaumont/ctfs/blob/32ed31ec0d9b2819c0309bd1feb7ef3dde6792fa/codegate-quals-2018/miro/README.md
+
+https://software.es.net/sans-holiday-hack-2018/

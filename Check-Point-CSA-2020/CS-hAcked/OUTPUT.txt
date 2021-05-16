@@ -1,0 +1,195 @@
+C:\Users\Idan\Desktop\programming\cs-hacked\venv\Scripts\python.exe "C:/Users/Idan/Desktop/programming/cs-hacked/cshacked (1).py"
+trial: 1 , word list:
+b'organization\n' b'administration\n' b'a\n' b'be\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 1
+total time 11.19247555732727 seconds
+----------------------------------
+
+trial: 2 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'as\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+CSA{i_gu355_I_need_tO_ChN4GE_mY_encrYp71On}
+----------------------------------
+total tries: 2
+total time 22.844982862472534 seconds
+----------------------------------
+
+trial: 3 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'as\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 3
+total time 34.03831124305725 seconds
+----------------------------------
+
+trial: 4 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'as\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 4
+total time 45.234455585479736 seconds
+----------------------------------
+
+trial: 5 , word list:
+b'organization\n' b'administration\n' b'I\n' b'as\n' b'a\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 5
+total time 56.45331430435181 seconds
+----------------------------------
+
+trial: 6 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'be\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 6
+total time 67.87366890907288 seconds
+----------------------------------
+
+trial: 7 , word list:
+b'organization\n' b'administration\n' b'I\n' b'as\n' b'a\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 7
+total time 79.25164866447449 seconds
+----------------------------------
+
+trial: 8 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'at\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 8
+total time 90.77605700492859 seconds
+----------------------------------
+
+trial: 9 , word list:
+b'particularly\n' b'administration\n' b'I\n' b'as\n' b'a\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 9
+total time 101.95315837860107 seconds
+----------------------------------
+
+trial: 10 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'be\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 10
+total time 113.12715125083923 seconds
+----------------------------------
+
+trial: 11 , word list:
+b'organization\n' b'administration\n' b'I\n' b'as\n' b'a\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 11
+total time 124.30131125450134 seconds
+----------------------------------
+
+trial: 12 , word list:
+b'organization\n' b'administration\n' b'a\n' b'at\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 12
+total time 135.4741177558899 seconds
+----------------------------------
+
+trial: 13 , word list:
+b'organization\n' b'administration\n' b'a\n' b'as\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 13
+total time 147.85235047340393 seconds
+----------------------------------
+
+trial: 14 , word list:
+b'particularly\n' b'administration\n' b'I\n' b'at\n' b'a\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 14
+total time 159.05446457862854 seconds
+----------------------------------
+
+trial: 15 , word list:
+b'organization\n' b'administration\n' b'a\n' b'at\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 15
+total time 170.45109581947327 seconds
+----------------------------------
+
+trial: 16 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'as\n' b'I\n' b'environmental\n' b'about\n' b'across\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+CSA{i_gu355_I_need_tO_ChN4GE_mY_encrYp71On}
+----------------------------------
+total tries: 16
+total time 182.85589265823364 seconds
+----------------------------------
+
+trial: 17 , word list:
+b'organization\n' b'administration\n' b'a\n' b'at\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+No flag for you!
+----------------------------------
+total tries: 17
+total time 194.31157660484314 seconds
+----------------------------------
+
+trial: 18 , word list:
+b'particularly\n' b'administration\n' b'a\n' b'at\n' b'I\n' b'environmental\n' b'about\n' b'accept\n' b'ability\n' b'according\n'
+Welcome! your RC4 key is: csa-mitm-key
+Hi! what's the secret sequence?
+sending words to the server, please wait....
+
+Process finished with exit code -1
